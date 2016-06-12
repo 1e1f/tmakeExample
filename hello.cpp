@@ -27,7 +27,8 @@ TEST(FactorialTest, Positive) {
   EXPECT_EQ(40320, Factorial(8));
 }
 
-int main()
+int main(int argc, char **argv) {
+  ::testing::InitGoogleTest(&argc, argv);
   RUN_ALL_TESTS();
   cout << "Hello, world, from Visual C++!" << endl;
   return 0;
