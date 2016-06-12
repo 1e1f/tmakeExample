@@ -28,8 +28,7 @@ TEST(FactorialTest, Positive) {
 }
 
 int main()
-  RUN_ALL_TESTS()
-
+  RUN_ALL_TESTS();
   cout << "Hello, world, from Visual C++!" << endl;
   return 0;
 }
